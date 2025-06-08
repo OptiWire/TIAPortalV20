@@ -29,7 +29,7 @@ void setup() {
   Serial.begin(115200);
   
   // Connect to WiFi
-  WiFi.begin("Claro_05FCFC", "Z8B7D2P6Y6K8");
+  WiFi.begin("SSDI", "pass");
   
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
